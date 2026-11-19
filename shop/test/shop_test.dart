@@ -5,7 +5,7 @@ import 'package:test/test.dart';
 void main() {
   group('Core Functions Tests', () {
     test('#1. Product should be created with correct properties', () {
-      final product = Product(AppConstants.defaultLaptopId, AppConstants.defaultLaptopName, AppConstants.defaultLaptopPrice);
+      final product = Product(AppConstants.defaultLaptopId, AppConstants.defaultLaptopName,  AppConstants.defaultLaptopPrice);
       expect(product.id, AppConstants.defaultLaptopId);
       expect(product.name, AppConstants.defaultLaptopName);
       expect(product.price, AppConstants.defaultLaptopPrice);
